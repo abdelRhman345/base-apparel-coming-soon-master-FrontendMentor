@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="stylesheet" href="asset/css/media.css">
+</head>
+<body>
+  <header>
+    <div class="text-coming">
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="images-coming">
+        <img src="images/hero-mobile.jpg" alt="">
+      </div>
+      <div class="text-info">
+        <h1><span>We're</span><br> coming<br> soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <form id="form" class="valid">
+          <div class="inputBox">
+            <input type="email" id="email" placeholder="E-mail Address" onkeydown="validation()">
+            <span class="error" id="error">!</span>
+            <button> <span>&angrt;</span> </button>
+          </div>
+          <span class="text" id="text"></span>
+        </form>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://abdelrahman345.netlify.app/">Abdelrahman Atef</a>.
+      </p>
+    </div>
+    <div class="images-coming hide-mobile">
+      <img src="images/hero-desktop.jpg" alt="">
+    </div>
+  </header>
+  <!-- <footer>
+    
+  </footer> -->
+  <script src="asset/js/main.js"></script>
+</body>
+</html>
